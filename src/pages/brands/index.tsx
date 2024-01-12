@@ -4,7 +4,7 @@ import Search from '@/components/common/search';
 import TypeList from '@/components/brand/brand-list';
 import ErrorMessage from '@/components/ui/error-message';
 import LinkButton from '@/components/ui/link-button';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { SortOrder } from '@/types';
 import { useState } from 'react';
 import { useTypesQuery } from '@/data/type';

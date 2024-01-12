@@ -2,7 +2,7 @@ import Layout from '@/components/layouts/admin';
 import { useRouter } from 'next/router';
 import CreateOrUpdateTaxForm from '@/components/tax/tax-form';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTaxQuery } from '@/data/tax';
 import { GetStaticPaths } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

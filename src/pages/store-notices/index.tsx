@@ -5,7 +5,7 @@ import StoreNoticeList from '@/components/store-notice/store-notice-list';
 import LinkButton from '@/components/ui/link-button';
 import { useState } from 'react';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { SortOrder } from '@/types';

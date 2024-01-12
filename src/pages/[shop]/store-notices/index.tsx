@@ -3,7 +3,7 @@ import ShopLayout from '@/components/layouts/shop';
 import { useState } from 'react';
 import Search from '@/components/common/search';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import LinkButton from '@/components/ui/link-button';
 import { Permission, SortOrder } from '@/types';
 import { useTranslation } from 'next-i18next';

@@ -1,6 +1,6 @@
 import CreateOrUpdateProductForm from '@/components/product/product-form_old';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

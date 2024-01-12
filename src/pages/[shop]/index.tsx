@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { MapPin } from '@/components/icons/map-pin';
 import { PhoneIcon } from '@/components/icons/phone';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import dayjs from 'dayjs';
 import { CheckMarkFill } from '@/components/icons/checkmark-circle-fill';
 import { CloseFillIcon } from '@/components/icons/close-fill';

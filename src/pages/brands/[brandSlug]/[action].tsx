@@ -2,7 +2,7 @@ import Layout from "@/components/layouts/admin";
 import { useRouter } from "next/router";
 import CreateOrUpdateTypeForm from "@/components/brand/brand-form";
 import ErrorMessage from "@/components/ui/error-message";
-import Loader from "@/components/ui/loader/loader";
+import {Loader} from "@/components/ui/loader/loader";
 // import { useTypeQuery } from "@/data/type/use-type.query";
 import { useTypeQuery } from '@/data/type';
 import { useTranslation } from "next-i18next";

@@ -6,7 +6,7 @@ import Search from '@/components/common/search';
 
 import LinkButton from '@/components/ui/link-button';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useShippingClassesQuery } from '@/data/shipping';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

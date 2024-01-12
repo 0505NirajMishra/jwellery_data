@@ -3,7 +3,7 @@ import Card from '@/components/common/card';
 import Layout from '@/components/layouts/shop';
 import { useState } from 'react';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { SortOrder } from '@/types';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

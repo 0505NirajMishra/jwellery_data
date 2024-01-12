@@ -9,7 +9,7 @@ import ProductList from '@/components/product/product-list';
 import Button from '@/components/ui/button';
 import ErrorMessage from '@/components/ui/error-message';
 import LinkButton from '@/components/ui/link-button';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useModalAction } from '@/components/ui/modal/modal.context';
 import { Config } from '@/config';
 import { Routes } from '@/config/routes';

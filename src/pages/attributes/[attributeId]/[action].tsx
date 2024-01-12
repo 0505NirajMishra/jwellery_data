@@ -1,7 +1,7 @@
 import Layout from '@/components/layouts/admin';
 import { useRouter } from 'next/router';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import CreateOrUpdateAttributeForm from '@/components/attribute/attribute-form';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

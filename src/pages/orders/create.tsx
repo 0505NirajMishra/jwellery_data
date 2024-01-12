@@ -10,7 +10,7 @@ import CategoryTypeFilter from '@/components/product/category-type-filter';
 import Drawer from '@/components/ui/drawer';
 import DrawerWrapper from '@/components/ui/drawer-wrapper';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import NotFound from '@/components/ui/not-found';
 import Pagination from '@/components/ui/pagination';
 import { useUI } from '@/contexts/ui.context';

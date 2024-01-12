@@ -11,7 +11,7 @@ import LinkButton from '@/components/ui/link-button';
 import { useState } from 'react';
 import { LIMIT } from '@/utils/constants';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

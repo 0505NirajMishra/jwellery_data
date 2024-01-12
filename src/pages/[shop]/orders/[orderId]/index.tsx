@@ -8,7 +8,7 @@ import ErrorMessage from '@/components/ui/error-message';
 import { siteSettings } from '@/settings/site.settings';
 import usePrice from '@/utils/use-price';
 import { formatAddress } from '@/utils/format-address';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import ValidationError from '@/components/ui/form-validation-error';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

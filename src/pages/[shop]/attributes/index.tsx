@@ -2,7 +2,7 @@ import Card from '@/components/common/card';
 import AttributeList from '@/components/attribute/attribute-list';
 import ErrorMessage from '@/components/ui/error-message';
 import LinkButton from '@/components/ui/link-button';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import ShopLayout from '@/components/layouts/shop';

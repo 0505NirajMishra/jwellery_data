@@ -2,7 +2,7 @@ import Layout from '@/components/layouts/admin';
 import { useRouter } from 'next/router';
 import CreateOrUpdateShippingForm from '@/components/shipping/shipping-form';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useShippingQuery } from '@/data/shipping';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';

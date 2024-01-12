@@ -4,7 +4,7 @@ import Search from '@/components/common/search';
 import TaxList from '@/components/tax/tax-list';
 import ErrorMessage from '@/components/ui/error-message';
 import LinkButton from '@/components/ui/link-button';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTaxesQuery } from '@/data/tax';
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';

@@ -2,7 +2,7 @@ import Card from '@/components/common/card';
 import Layout from '@/components/layouts/admin';
 import AttributeList from '@/components/attribute/attribute-list';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { SortOrder } from '@/types';

@@ -2,7 +2,7 @@ import { adminOnly } from '@/utils/auth-utils';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import ErrorMessage from '@/components/ui/error-message';
 import Button from '@/components/ui/button';
 import { useForm } from 'react-hook-form';

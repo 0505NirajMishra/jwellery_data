@@ -2,7 +2,7 @@ import Layout from '@/components/layouts/app';
 import ProfileUpdateFrom from '@/components/auth/profile-update-form';
 import ChangePasswordForm from '@/components/auth/change-password-from';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useMeQuery } from '@/data/user';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
