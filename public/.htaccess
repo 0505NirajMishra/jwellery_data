@@ -1,0 +1,8 @@
+# <IfModule mod_rewrite.c>
+  # RewriteEngine On
+  # RewriteBase /
+
+  # Redirect everything to the Next.js app
+  # RewriteRule ^index\.html$ - [L]
+  # RewriteRule ^(.*)$ /index.html [L]
+# </IfModule>
