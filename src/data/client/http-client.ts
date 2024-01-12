@@ -10,14 +10,14 @@ import { API_ENDPOINTS } from './api-endpoints';
 // );
 
 const Axios = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_REST_API_ENDPOINT,
+  baseURL: 'https://siyagem.thecompletesoftech.in/',
   timeout: 50000,
   headers: {
     'Content-Type': 'application/json',
   },
 });
 // Change request data/error
-const AUTH_TOKEN_KEY = process.env.NEXT_PUBLIC_AUTH_TOKEN_KEY ?? 'authToken';
+const AUTH_TOKEN_KEY = 'AUTH_CRED' ?? 'authToken';
 Axios.interceptors.request.use((config) => {
   const cookies = Cookies.get(AUTH_TOKEN_KEY);
   let token = '';
