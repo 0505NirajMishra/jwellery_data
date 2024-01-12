@@ -48,7 +48,7 @@ export default function CheckoutPage() {
     <div className="bg-gray-100">
       <div className="lg:space-s-8 m-auto flex w-full max-w-5xl flex-col items-center lg:flex-row lg:items-start">
         <div className="w-full space-y-6 lg:max-w-2xl">
-          <CustomerGrid
+          {/* <CustomerGrid
             className="shadow-700 bg-light p-5 md:p-8"
             // @ts-ignore
             contact={user?.profile?.contact}
@@ -93,7 +93,7 @@ export default function CheckoutPage() {
             className="shadow-700 bg-light p-5 md:p-8"
             label={t('text-delivery-schedule')}
             count={4}
-          />
+          /> */}
         </div>
         <div className="mb-10 mt-10 w-full sm:mb-12 lg:mb-0 lg:w-96">
           <RightSideView />
