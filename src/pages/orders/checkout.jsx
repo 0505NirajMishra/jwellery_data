@@ -12,7 +12,7 @@ import { adminOnly } from '@/utils/auth-utils';
 import CustomerGrid from '@/components/checkout/customer/customer-grid';
 import { useEffect } from 'react';
 import { useAtom } from 'jotai';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useUserQuery } from '@/data/user';
 import { AddressType } from '@/types';
 

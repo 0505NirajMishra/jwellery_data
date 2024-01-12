@@ -1,7 +1,7 @@
 import ShopLayout from '@/components/layouts/shop';
 import StoreNoticeCreateOrUpdateForm from '@/components/store-notice/store-notice-form';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { Config } from '@/config';
