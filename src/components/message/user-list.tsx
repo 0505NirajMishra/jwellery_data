@@ -1,6 +1,6 @@
 import { useConversationsQuery } from '@/data/conversations';
 import ErrorMessage from '@/components/ui/error-message';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'next-i18next';
 import isEmpty from 'lodash/isEmpty';

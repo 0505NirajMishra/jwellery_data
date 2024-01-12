@@ -1,4 +1,4 @@
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import cn from 'classnames';
