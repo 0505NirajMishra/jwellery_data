@@ -124,13 +124,13 @@ export default function ProductsPage() {
       <div className="mt-8 flex w-full justify-center">
         {!!paginatorInfo?.total && (
           <div className="flex items-center justify-end">
-            <Pagination
+            {/* <Pagination
               total={paginatorInfo.total}
               current={paginatorInfo.currentPage}
               pageSize={paginatorInfo.perPage}
               onChange={handlePagination}
               showLessItems
-            />
+            /> */}
           </div>
         )}
       </div>
