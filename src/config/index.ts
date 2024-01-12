@@ -1,23 +1,27 @@
-// import invariant from 'tiny-invariant';
+import invariant from 'tiny-invariant';
 
-// invariant(
-//   process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE,
-//   'Default language is not set'
-// );
+const defaultLan = process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE;
+const defaultMultiLan = process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG;
+const available = process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES;
 
-// if (process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true') {
-//   invariant(
-//     process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES,
-//     'Available language is not set'
-//   );
-// }
+invariant(
+  defaultLan,
+  'Default language is not set'
+);
+
+if (defaultMultiLan === 'true') {
+  invariant(
+    defaultLan,
+    'Available language is not set'
+  );
+}
 
 export const Config = {
   defaultLanguage: process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE ?? 'en',
-  availableLanguages: process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES
-    ? process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES.split(',')
+  availableLanguages: available
+    ? available.split(',')
     : [],
-  enableMultiLang: process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true',
+  enableMultiLang: defaultMultiLan === 'true',
   rtlLanguages: ['ar', 'fa', 'he'],
   getDirection: (language: string | undefined) => {
     if (!language) return 'ltr';
