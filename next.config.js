@@ -18,7 +18,7 @@ module.exports = withPWA({
       's3.amazonaws.com',
       '18.141.64.26',
       '127.0.0.1',
-      'backapi.whitedebeers.com',
+      'siyagem.thecompletesoftech.in',
       'm.media-amazon.com',
       'picsum.photos',
       'pickbazar-sail.test',
