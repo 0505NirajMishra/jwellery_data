@@ -23,6 +23,8 @@ module.exports = withPWA({
       'picsum.photos',
       'pickbazar-sail.test',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
+      'jwellery-data.vercel.app',
+      'jwellery-data-git-main-niraj-mishras-projects.vercel.app',
       'lh3.googleusercontent.com',
       'chawkbazarlaravel.s3.ap-southeast-1.amazonaws.com',
     ],
