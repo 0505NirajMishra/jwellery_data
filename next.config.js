@@ -11,7 +11,6 @@ const withPWA = require('next-pwa')({
 module.exports = withPWA({
   reactStrictMode: true,
   i18n,
-  distDir: 'out',
   images: {
     domains: [
       'via.placeholder.com',
