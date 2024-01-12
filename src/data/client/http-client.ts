@@ -4,20 +4,22 @@ import Router from 'next/router';
 import invariant from 'tiny-invariant';
 import { API_ENDPOINTS } from './api-endpoints';
 
+const restApiEndpoint = process.env.NEXT_PUBLIC_REST_API_ENDPOINT;
+
 invariant(
-  process.env.NEXT_PUBLIC_REST_API_ENDPOINT,
+  restApiEndpoint,
   'NEXT_PUBLIC_REST_API_ENDPOINT is not defined, please define it in your .env file'
 );
 
 const Axios = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_REST_API_ENDPOINT,
+  baseURL: restApiEndpoint,
   timeout: 50000,
   headers: {
     'Content-Type': 'application/json',
   },
 });
-// Change request data/error
-const AUTH_TOKEN_KEY = process.env.NEXT_PUBLIC_AUTH_TOKEN_KEY ?? 'authToken';
+
+const AUTH_TOKEN_KEY = restApiEndpoint ?? 'authToken';
 Axios.interceptors.request.use((config) => {
   const cookies = Cookies.get(AUTH_TOKEN_KEY);
   let token = '';
