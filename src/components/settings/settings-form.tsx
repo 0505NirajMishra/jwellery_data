@@ -12,7 +12,7 @@ import FileInput from '@/components/ui/file-input';
 import ValidationError from '@/components/ui/form-validation-error';
 import Input from '@/components/ui/input';
 import Label from '@/components/ui/label';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import PaymentSelect from '@/components/ui/payment-select';
 import SelectInput from '@/components/ui/select-input';
 import SwitchInput from '@/components/ui/switch-input';
