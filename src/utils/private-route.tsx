@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { getAuthCredentials, hasAccess } from './auth-utils';
-import Loader from '@/components/ui/loader/loader';
+import {Loader} from '@/components/ui/loader/loader';
 import AccessDeniedPage from '@/components/common/access-denied';
 import { Routes } from '@/config/routes';
 
